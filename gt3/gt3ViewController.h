@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface gt3ViewController : UIViewController {
+    // need to add some variables here
     
 }
 
