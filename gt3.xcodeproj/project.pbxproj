@@ -23,14 +23,14 @@
 		D4C7C4B213B3D7F600FBD2EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D4C7C4B413B3D7F600FBD2EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D4C7C4B613B3D7F600FBD2EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D4C7C4BA13B3D7F600FBD2EE /* gt3-Info.plist */ = {isa = PBXFileReference; path = "gt3-Info.plist"; sourceTree = "<group>"; };
+		D4C7C4BA13B3D7F600FBD2EE /* gt3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gt3-Info.plist"; sourceTree = "<group>"; };
 		D4C7C4BC13B3D7F600FBD2EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D4C7C4BE13B3D7F600FBD2EE /* gt3-Prefix.pch */ = {isa = PBXFileReference; path = "gt3-Prefix.pch"; sourceTree = "<group>"; };
+		D4C7C4BE13B3D7F600FBD2EE /* gt3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gt3-Prefix.pch"; sourceTree = "<group>"; };
 		D4C7C4BF13B3D7F600FBD2EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D4C7C4C113B3D7F600FBD2EE /* gt3AppDelegate.h */ = {isa = PBXFileReference; path = gt3AppDelegate.h; sourceTree = "<group>"; };
+		D4C7C4C113B3D7F600FBD2EE /* gt3AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gt3AppDelegate.h; sourceTree = "<group>"; };
 		D4C7C4C213B3D7F600FBD2EE /* gt3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gt3AppDelegate.m; sourceTree = "<group>"; };
 		D4C7C4C513B3D7F600FBD2EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		D4C7C4C713B3D7F600FBD2EE /* gt3ViewController.h */ = {isa = PBXFileReference; path = gt3ViewController.h; sourceTree = "<group>"; };
+		D4C7C4C713B3D7F600FBD2EE /* gt3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gt3ViewController.h; sourceTree = "<group>"; };
 		D4C7C4C813B3D7F600FBD2EE /* gt3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gt3ViewController.m; sourceTree = "<group>"; };
 		D4C7C4CB13B3D7F600FBD2EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/gt3ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
