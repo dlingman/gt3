@@ -10,7 +10,7 @@
 
 @interface gt3ViewController : UIViewController {
     // need to add some variables here
-    
+    int counter;
 }
 
 @end
