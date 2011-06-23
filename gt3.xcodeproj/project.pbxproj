@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4C7C4B313B3D7F600FBD2EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C7C4B213B3D7F600FBD2EE /* UIKit.framework */; };
+		D4C7C4B513B3D7F600FBD2EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C7C4B413B3D7F600FBD2EE /* Foundation.framework */; };
+		D4C7C4B713B3D7F600FBD2EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C7C4B613B3D7F600FBD2EE /* CoreGraphics.framework */; };
+		D4C7C4BD13B3D7F600FBD2EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4C7C4BB13B3D7F600FBD2EE /* InfoPlist.strings */; };
+		D4C7C4C013B3D7F600FBD2EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C7C4BF13B3D7F600FBD2EE /* main.m */; };
+		D4C7C4C313B3D7F600FBD2EE /* gt3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C7C4C213B3D7F600FBD2EE /* gt3AppDelegate.m */; };
+		D4C7C4C613B3D7F600FBD2EE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4C7C4C413B3D7F600FBD2EE /* MainWindow.xib */; };
+		D4C7C4C913B3D7F600FBD2EE /* gt3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C7C4C813B3D7F600FBD2EE /* gt3ViewController.m */; };
+		D4C7C4CC13B3D7F600FBD2EE /* gt3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4C7C4CA13B3D7F600FBD2EE /* gt3ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4C7C4AE13B3D7F600FBD2EE /* gt3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gt3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C7C4B213B3D7F600FBD2EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4C7C4B413B3D7F600FBD2EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4C7C4B613B3D7F600FBD2EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D4C7C4BA13B3D7F600FBD2EE /* gt3-Info.plist */ = {isa = PBXFileReference; path = "gt3-Info.plist"; sourceTree = "<group>"; };
+		D4C7C4BC13B3D7F600FBD2EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4C7C4BE13B3D7F600FBD2EE /* gt3-Prefix.pch */ = {isa = PBXFileReference; path = "gt3-Prefix.pch"; sourceTree = "<group>"; };
+		D4C7C4BF13B3D7F600FBD2EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4C7C4C113B3D7F600FBD2EE /* gt3AppDelegate.h */ = {isa = PBXFileReference; path = gt3AppDelegate.h; sourceTree = "<group>"; };
+		D4C7C4C213B3D7F600FBD2EE /* gt3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gt3AppDelegate.m; sourceTree = "<group>"; };
+		D4C7C4C513B3D7F600FBD2EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D4C7C4C713B3D7F600FBD2EE /* gt3ViewController.h */ = {isa = PBXFileReference; path = gt3ViewController.h; sourceTree = "<group>"; };
+		D4C7C4C813B3D7F600FBD2EE /* gt3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gt3ViewController.m; sourceTree = "<group>"; };
+		D4C7C4CB13B3D7F600FBD2EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/gt3ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4C7C4AB13B3D7F600FBD2EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C7C4B313B3D7F600FBD2EE /* UIKit.framework in Frameworks */,
+				D4C7C4B513B3D7F600FBD2EE /* Foundation.framework in Frameworks */,
+				D4C7C4B713B3D7F600FBD2EE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4C7C4A313B3D7F500FBD2EE = {
+			isa = PBXGroup;
+			children = (
+				D4C7C4B813B3D7F600FBD2EE /* gt3 */,
+				D4C7C4B113B3D7F600FBD2EE /* Frameworks */,
+				D4C7C4AF13B3D7F600FBD2EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4C7C4AF13B3D7F600FBD2EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4C7C4AE13B3D7F600FBD2EE /* gt3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4C7C4B113B3D7F600FBD2EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4C7C4B213B3D7F600FBD2EE /* UIKit.framework */,
+				D4C7C4B413B3D7F600FBD2EE /* Foundation.framework */,
+				D4C7C4B613B3D7F600FBD2EE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4C7C4B813B3D7F600FBD2EE /* gt3 */ = {
+			isa = PBXGroup;
+			children = (
+				D4C7C4C113B3D7F600FBD2EE /* gt3AppDelegate.h */,
+				D4C7C4C213B3D7F600FBD2EE /* gt3AppDelegate.m */,
+				D4C7C4C413B3D7F600FBD2EE /* MainWindow.xib */,
+				D4C7C4C713B3D7F600FBD2EE /* gt3ViewController.h */,
+				D4C7C4C813B3D7F600FBD2EE /* gt3ViewController.m */,
+				D4C7C4CA13B3D7F600FBD2EE /* gt3ViewController.xib */,
+				D4C7C4B913B3D7F600FBD2EE /* Supporting Files */,
+			);
+			path = gt3;
+			sourceTree = "<group>";
+		};
+		D4C7C4B913B3D7F600FBD2EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4C7C4BA13B3D7F600FBD2EE /* gt3-Info.plist */,
+				D4C7C4BB13B3D7F600FBD2EE /* InfoPlist.strings */,
+				D4C7C4BE13B3D7F600FBD2EE /* gt3-Prefix.pch */,
+				D4C7C4BF13B3D7F600FBD2EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4C7C4AD13B3D7F600FBD2EE /* gt3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4C7C4CF13B3D7F600FBD2EE /* Build configuration list for PBXNativeTarget "gt3" */;
+			buildPhases = (
+				D4C7C4AA13B3D7F600FBD2EE /* Sources */,
+				D4C7C4AB13B3D7F600FBD2EE /* Frameworks */,
+				D4C7C4AC13B3D7F600FBD2EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gt3;
+			productName = gt3;
+			productReference = D4C7C4AE13B3D7F600FBD2EE /* gt3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4C7C4A513B3D7F500FBD2EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Digital Matrix";
+			};
+			buildConfigurationList = D4C7C4A813B3D7F500FBD2EE /* Build configuration list for PBXProject "gt3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4C7C4A313B3D7F500FBD2EE;
+			productRefGroup = D4C7C4AF13B3D7F600FBD2EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4C7C4AD13B3D7F600FBD2EE /* gt3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4C7C4AC13B3D7F600FBD2EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C7C4BD13B3D7F600FBD2EE /* InfoPlist.strings in Resources */,
+				D4C7C4C613B3D7F600FBD2EE /* MainWindow.xib in Resources */,
+				D4C7C4CC13B3D7F600FBD2EE /* gt3ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4C7C4AA13B3D7F600FBD2EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C7C4C013B3D7F600FBD2EE /* main.m in Sources */,
+				D4C7C4C313B3D7F600FBD2EE /* gt3AppDelegate.m in Sources */,
+				D4C7C4C913B3D7F600FBD2EE /* gt3ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4C7C4BB13B3D7F600FBD2EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4C7C4BC13B3D7F600FBD2EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4C7C4C413B3D7F600FBD2EE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4C7C4C513B3D7F600FBD2EE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D4C7C4CA13B3D7F600FBD2EE /* gt3ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4C7C4CB13B3D7F600FBD2EE /* en */,
+			);
+			name = gt3ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4C7C4CD13B3D7F600FBD2EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D4C7C4CE13B3D7F600FBD2EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		D4C7C4D013B3D7F600FBD2EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gt3/gt3-Prefix.pch";
+				INFOPLIST_FILE = "gt3/gt3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4C7C4D113B3D7F600FBD2EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gt3/gt3-Prefix.pch";
+				INFOPLIST_FILE = "gt3/gt3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4C7C4A813B3D7F500FBD2EE /* Build configuration list for PBXProject "gt3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C7C4CD13B3D7F600FBD2EE /* Debug */,
+				D4C7C4CE13B3D7F600FBD2EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4C7C4CF13B3D7F600FBD2EE /* Build configuration list for PBXNativeTarget "gt3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C7C4D013B3D7F600FBD2EE /* Debug */,
+				D4C7C4D113B3D7F600FBD2EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4C7C4A513B3D7F500FBD2EE /* Project object */;
+}
